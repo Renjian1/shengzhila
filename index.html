@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  name="description" content="升职啦专注于为大学生、留学生、职场白领等客户人群提供职业规划服务。
+    自主研发职业发展学习课程，针对客户个体特性量身定制学习计划，提升职场软硬技能。500强企业专家1对1指导，并提供名企实习及内推机会。">
+     <meta name="Keywords" content="升职啦，知识，付费，报名，加薪，转业，专业，名师，指导，辅助，offer，大学生"/>
+    <meta name="viewport" content="user-scalable=0">
+    <title>升职啦-专业的职场教育与知识付费平台</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_561437_uuh1sba96db.css">
+    <script src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/jquery-1.8.3.js"></script>
+    <script src="js/md5.js"></script>
+	<script src="js/jquery.input.rule.js"></script>
+</head>
+<body onload="myFunction()">
+<!--头部banner开始-->
+<div style="display: none;"><script type="text/javascript" src="https://s23.cnzz.com/z_stat.php?id=1277744535&web_id=1277744535"></script></div>
+<div class="alldiv">
+    <!--报名弹窗-->
+    <div class="baoming">
+        <div class="baomingsmall">
+           <form action="" method="" class="inpdiv">
+                <p><input type="text"  name="phone" class="putt2 put move1" id="phone" maxlength="11" placeholder="请输入手机号"/></p>
+                <p class="error-info">手机格式错误</p>
+                <input type="text" name="env" class="putt2 put move2 md5val" id="env" maxlength="6" placeholder="请输入验证码"/>
+               <a href="#"> <a href="#"><button id="put_btn" style="cursor: pointer;">获取</button></a><p class="error-info2">验证码错误</p> </a>
+                <input type="text" name="user_name" class="putt2 put move3" id="user_name" placeholder="您的姓名"/>
+                <input type="text" name="contact" class="putt2 put move4" id="contact"  placeholder="您的微信号或QQ号"/>
+               <a href="#"><input type="button" value="免费报名" class="btn1" id="post_btn" style="cursor: pointer;"></a>
+               <p class="error-info3">请填写完整信息</p>
+               <!--提示信息-->
+               <!--<span class="tishi1 tishipy"  id="tishi1">请输入手机号</span>-->
+               <!--<span class="tishi2 tishipy">请输入验证码</span>-->
+               <!--<span class="tishi3 tishipy">您的姓名</span>-->
+               <!--<span class="tishi4 tishipy">您的微信号或QQ号</span>-->
+            </form>
+            <a href="#"><span class="icon Shut"><i class="iconfont icon-guanbi1"></i></span></a>
+        </div>
+        <div class="baomingsmall baomingsmall2">
+            <img src="img/报名成功.png" alt="" class="small2_img">
+            <span class="small2_span1">报名成功</span>
+            <p>咨询顾问将尽快与您联系，请注意接听 电话，微信或QQ好友请求～</p>
+            <a href="#"><input type="button" value="好的" class="btn1 small2_btn" style="cursor: pointer;"></a>
+            <a href="#"><span class="icon Shut"><i class="iconfont icon-guanbi1 iconfont2"></i></span></a>
+        </div>
+    </div>
+    <!--报名弹窗结束-->
+    <div class="banner">
+        <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/互联网.png" alt="" class="banner_bg">
+        <div class="banner_hei">
+            <div class="bannersmall">
+                <img src="img/升职啦logo.png" alt="">
+                <a href="#ddd"><span style="margin-right: 0;" class="bannersmall_span">服务流程</span></a>
+                <a href="#ccc"><span class="bannersmall_span">名企直推</span></a>
+                <a href="#bbb"><span class="bannersmall_span">学员案例</span></a>
+                <a href="#aaa"><span class="bannersmall_span">服务人群</span></a>
+                <span class="bannersmall_span">首页</span>
+                <span class="Num_2"> 2019<span style="font-family:MicrosoftYaHei;">秋招开启</span></span>
+                <span class="help_offer">帮你拿下名企offer，应届生月薪1万起</span>
+                <div class="signbox"><a href="#"><div class="sign" id="sign">免费报名</div></a></div>
+            </div>
+        </div>
+        <!--<canvas id="c"></canvas>-->
+    </div>
+<!--服务人群-->
+    <div class="service" id="aaa">
+        <div class="servicesmall">
+            <span class="characters">服务人群</span>
+            <span class="english">SERVICE POPULATION</span>
+            <div class="bannerline"></div>
+            <div class="student">
+                <div class="studentsmall">
+                    <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/服务人群_图片_在读大学生.png" alt="">
+                    <div class="template">
+                        <span id="template_span">在读大学生</span>
+                        <div class="line"></div>
+                        <p class="template_p">针对秋招的大学生，提供全方位 职业规划服务，帮助你在竞争残酷的人才市场中脱颖而出</p>
+                    </div>
+                </div>
+                <div class="studentsmall">
+                    <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/服务人群_图片_海归留学生.png" alt="">
+                    <div class="template">
+                        <span id="template_span">海归留学生</span>
+                        <div class="line"></div>
+                        <p class="template_p">专为海归留学生定制的专业求职计划，多元化可定制的授课方案，注重职业能力与求职技巧双线提升。</p>
+                    </div>
+                </div>
+                <div class="studentsmall">
+                    <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/服务人群_图片_职场新人.png" alt="">
+                    <div class="template">
+                        <span id="template_span">职场新人</span>
+                        <div class="line"></div>
+                        <p class="template_p">专注提升解决实际问题的工作能力，理论实践结合，求职工作双应用</p>
+                    </div>
+                </div>
+                <div class="studentsmall">
+                    <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/服务人群_图片_考虑转行人群.png" alt="">
+                    <div class="template">
+                        <span id="template_span">考虑转行人群</span>
+                        <div class="line"></div>
+                        <p class="template_p">行业资深导师深度分析现状，定制化培训课程，收获可写进简历的实战经验</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--学员案例-->
+    <div class="studentcase" id="bbb">
+        <div class="student_top_top"></div>
+        <div class="studentcasebottom"></div>
+        <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/学院案例bg.png" alt="" class="studentcase_bg">
+        <div class="studentcase2">
+            <span class="characters studentcasespan1" style="text-align: center;">学员案例</span>
+            <span class="english studentcasespan2">STUDENT CASE</span>
+            <div class="bannerline studentcaseline"></div>
+            <div class="studentcase_small">
+                <div class="casebox1">
+                    <!-- <img src="img/模块左一.png" class="casebox1_bg"> -->
+                    <img src="img/WechatIMG125.png" alt="" class="casebox1_img">
+                    <span class="casebox1word1">刘同学</span>
+                    <span class="casebox1word2">墨尔本大学</span>
+                    <span class="casebox1word3">国际经济与贸易专业</span>
+                    <a href="javascript:void(0)"><div class="casebox1bottom"></div></a>
+                    <div class="casebox1_ding" style="cursor:pointer;">
+                        <img src="img/WechatIMG125.png" alt="">
+                        <div class="casebox1_ding_one">
+                            <span class="ding_one_word1">刘同学</span>
+                            <span class="ding_one_word2">墨尔本大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国际经济与贸易专业</span>
+                            <span class="ding_one_word3">问题所在：</span>
+                            <p class="ding_one_p1">1.所学专业覆盖知识面太广泛，感觉什么都学，什么都没学精；</p>
+                            <p class="ding_one_p2">2.就业可选方向太多，对各行业没有深入了解，无法对自己的职业方向进行合理规划；</p>
+                            <span class="ding_one_word3">咨询方案：</span>
+                            <p class="ding_one_p1">1.明确个人职业能力优势，针对性进行适合行业、职位的深入讲解；</p>
+                            <p class="ding_one_p2">2.进行面试指导并通过多次模拟面试，成功入职欧莱雅中国。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="casebox2" id="asddsa">
+                    <img src="img/WechatIMG126.png" alt="" class="casebox2_img">
+                    <span class="casebox1word1">钱同学</span>
+                    <span class="casebox1word2">四川大学</span>
+                    <span class="casebox1word3">计算机科学与技术</span>
+                    <a href="javascript:void(0)"> <div class="casebox1bottom"></div></a>
+                    <div class="casebox2_ding" style="cursor:pointer;">
+                        <img src="img/WechatIMG126.png" alt="">
+                        <div class="casebox1_ding_one">
+                            <span class="ding_one_word1">钱同学</span>
+                            <span class="ding_one_word2">四川大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计算机科学与技术</span>
+                            <span class="ding_one_word3" style="margin-top: 20px;">问题所在：</span>
+                            <p class="ding_one_p1">1.由于准备考研错过了秋招，准备春招时间匆忙，且目标不明确；</p>
+                            <p class="ding_one_p2">2.本人比较内向，面试无法正常发挥水平；</p>
+                            <p class="ding_one_p2">3.在校期间学习的都是理论知识，很少有项目实战，导致简历空洞；</p>
+                            <span class="ding_one_word3" style="margin-top: 20px;">咨询方案:</span>
+                            <p class="ding_one_p1">1.帮助学员明确就业目标，在春招的公司范围内挑选合适的岗位；</p>
+                            <p class="ding_one_p2">2.提供较短期的岗位实习来添加实战经验，丰富简历内容；</p>
+                            <p class="ding_one_p2">3.进行HR面试指导，充分了解面试过程中会出现的状况，最终拿到国内某知名互联网企业Offer。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="casebox3">
+                    <img src="img/WechatIMG127.png" alt="" class="casebox3_img">
+                    <span class="casebox1word1">谭女士</span>
+                    <span class="casebox1word2">成都某企业财务会计</span>
+                    <span class="casebox1word3">2年工作经验</span>
+                    <a href="javascript:void(0)"><div class="casebox1bottom" style="cursor:pointer;"></div></a>
+                    <div class="casebox3_ding">
+                        <img src="img/WechatIMG127.png" alt="">
+                        <div class="casebox1_ding_one">
+                            <span class="ding_one_word1">谭女士</span>
+                            <span class="ding_one_word2">成都某企业财务会计&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2年工作经验</span>
+                            <span class="ding_one_word3" style="margin-top: 20px;">问题所在：</span>
+                            <p class="ding_one_p1">1.专业知识对口工作很少，薪资低，没有发展空间；</p>
+                            <p class="ding_one_p2">2.个性比较羞涩，不擅长表达，面试结束后通常没有结果反馈；</p>
+                            <p class="ding_one_p2">3.公司体量较小，都是日常基本工作，导致经验欠缺；</p>
+                            <span class="ding_one_word3" style="margin-top: 20px;">咨询方案：</span>
+                            <p class="ding_one_p1">1.通过专业的行内指导，达成岗位更精专认知；进一步明确职业发展规划和方向；</p>
+                            <p class="ding_one_p2">2.丰富简历内容，提高简历筛选成功率；</p>
+                            <p class="ding_one_p2">3.选择一对一行业专业指导，充分掌握面试中会出现的状况和问题，最终收获四大会计师事务所Offer。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--名企直推-->
+    <div class="International" id="ccc">
+        <div class="Internationalsmall">
+            <span class="characters">名企直推</span>
+            <span class="english">与全球500+各行业知名企业建立合作，为你提供实习或内推岗位</span>
+            <div class="bannerline"></div>
+            <div class="inter_top">
+                <div class="intersmall xian1" onmouseenter="bianse(1)" style="cursor:pointer;">互联网<div class="linenone"></div></div>
+                <div class="intersmall xian2" onmouseenter="bianse(2)" style="cursor:pointer;">计算机相关 <div class="linenone"></div></div>
+                <div class="intersmall xian3"  onmouseenter="bianse(3)" style="cursor:pointer;">银行 <div class="linenone"></div></div>
+                <div class="intersmall xian4" onmouseenter="bianse(4)" style="cursor:pointer;">汽车<div class="linenone"></div></div>
+                <div class="intersmall xian5" onmouseenter="bianse(5)" style="cursor:pointer;">制药 <div class="linenone"></div></div>
+                <div class="intersmall xian6" onmouseenter="bianse(6)" style="cursor:pointer;">快消 <div class="linenone"></div></div>
+                <div class="intersmall xian7" onmouseenter="bianse(7)" style="cursor:pointer;">地产 <div class="linenone"></div></div>
+                <div class="intersmall xian8" onmouseenter="bianse(8)" style="cursor:pointer;">其他 <div class="linenone"></div></div>
+            </div>
+            <div class="inter_bottom">
+                <!--互联网-->
+                <div class="interbottom_small bank1" style="display: block;">
+                    <div class="only hu1"><img src="img/互联网/d8bd22d85fe3f88f8cb36b93589e3828.png" alt=""><div class="only3">亚马逊</div></div>
+                    <div class="only hu2"><img src="img/互联网/94e7dec98ed2706a5b40f10467ea36a8.png" alt=""><div class="only3">阿里巴巴</div></div>
+                    <div class="only hu3"><img src="img/互联网/footer_logo.png" alt=""><div class="only3">腾讯</div></div>
+                    <div class="only hu4"><img src="img/互联网/baidu_resultlogo@2.png" alt=""><div class="only3">百度</div></div>
+                    <div class="only hu5"><img src="img/互联网/11a1876abed1f787fb227c9ca4f6426e.png" alt=""><div class="only3">京东</div></div>
+                    <div class="only hu6" style="margin-right: 0px"><img src="img/互联网/zh-logo-color.caa02809.png" alt=""><div class="only3">字节跳动</div></div>
+                </div>
+                <!--计算机相关-->
+                <div class="interbottom_small bank1">
+                    <div class="only computer1"><img src="img/计算机相关/a88d1b94be545c7394f24e68c9b85eaa.png" alt=""><div class="only3">华为</div></div>
+                    <div class="only computer2"><img src="img/计算机相关/dboiahfdoiahfoi.png" alt=""><div class="only3">IBM</div></div>
+                    <div class="only computer3"><img src="img/计算机相关/31d13796b1f20d79c2d09a85fa1a3f79.png" alt=""><div class="only3">微软</div></div>
+                    <div class="only computer4"><img src="img/计算机相关/98b7c8838a45138b4c84c7a7e4dfd5c5.png" alt=""><div class="only3">谷歌</div></div>
+                    <div class="only computer5"><img src="img/计算机相关/85f4dbb1d9224150a68fa1f6b4a1fde0.png" alt=""><div class="only3">甲骨文</div></div>
+                    <div class="only computer6" style="margin-right: 0px"><img src="img/计算机相关/位图.png" alt=""><div class="only3">英特尔</div></div>
+                </div>
+                <!--银行-->
+                <div class="interbottom_small bank1">
+                    <div class="only bank3"><img src="img/银行/u=2837393587,205289895&fm=26&gp=0.png" alt=""><div class="only3">花旗银行</div></div>
+                    <div class="only bank4"><img src="img/银行/u=4213284369,3340752822&fm=26&gp=0.png" alt=""><div class="only3">汇丰银行</div></div>
+                    <div class="only bank5"><img src="img/银行/logo-sc.png" alt=""><div class="only3">渣打银行</div></div>
+                    <div class="only bank6"><img src="img/银行/Unknown.png" alt=""><div class="only3">中国银行</div></div>
+                    <div class="only bank7"><img src="img/银行/logo.png" alt=""><div class="only3">中国工商银行</div></div>
+                    <div class="only bank8" style="margin-right: 0px"><img src="img/银行/8f04007221699ebb0256e3d9c1694111.png" alt=""><div class="only3">招商银行</div></div>
+                </div>
+                <!--汽车-->
+                <div class="interbottom_small bank1">
+                    <div class="only car1"><img src="img/汽车/7a09d8d33768dce0a7ae8cec34c80431.png" alt=""><div class="only3">大众汽车</div></div>
+                    <div class="only car2"><img src="img/汽车/75be914173e21513e382db1b6ca6d365.png" alt=""><div class="only3">戴姆勒</div></div>
+                    <div class="only car3"><img src="img/汽车/5afbd9f65129d1a3f93f1af6656231e5.png" alt=""><div class="only3">宝马</div></div>
+                    <div class="only car4"><img src="img/汽车/97272203bffc157b09c9e974fc57f144.png" alt=""><div class="only3">沃尔沃</div></div>
+                    <div class="only car5"><img src="img/汽车/bd15ddfad2d3178e09ce37da7c65a801.png" alt=""><div class="only3">丰田汽车</div></div>
+                    <div class="only car6" style="margin-right: 0px"><img src="img/汽车/f093de3b496132382fd92292337ee29d.png" alt=""><div class="only3">上汽集团</div></div>
+                </div>
+                <!--制药-->
+                <div class="interbottom_small bank1">
+                    <div class="only yao1"><img src="img/制药/asndoihaoiwh.png" alt=""><div class="only3">罗氏制药</div></div>
+                    <div class="only yao2"><img src="img/制药/dnoahdoaow.png" alt=""><div class="only3">辉瑞制药</div></div>
+                    <div class="only yao3"><img src="img/制药/dalhdoawhiud.png" alt=""><div class="only3">拜耳</div></div>
+                    <div class="only yao4"><img src="img/制药/qodhiouwqho.png" alt=""><div class="only3">中国医药集团</div></div>
+                    <div class="only yao5"><img src="img/制药/哦我全家都请假哦活动区.png" alt=""><div class="only3">诺华制药</div></div>
+                    <div class="only yao6" style="margin-right: 0px"><img src="img/制药/位图.png" alt=""><div class="only3">赛诺菲</div></div>
+                </div>
+                <!--快消-->
+                <div class="interbottom_small bank1">
+                    <div class="only xiao1"><img src="img/快消/d7fc3bc3ac22121105fdb5eef2859e7d.png" alt=""><div class="only3">宝洁</div></div>
+                    <div class="only xiao2"><img src="img/快消/位图.png" alt=""><div class="only3">联合利华</div></div>
+                    <div class="only xiao3"><img src="img/快消/45c780ea83115178cc15759a045933fc.png" alt=""><div class="only3">雀巢</div></div>
+                    <div class="only xiao4"><img src="img/快消/c995d143ad4bd113d88fb88cd950210b49fb05d5.png" alt=""><div class="only3">玛氏食品</div></div>
+                    <div class="only xiao5"><img src="img/快消/DANONE_LOGO.png" alt=""><div class="only3">达能</div></div>
+                    <div class="only xiao6" style="margin-right: 0px"><img src="img/快消/beb7c93a9a2ca29cff2608f6e58f77e1.png" alt=""><div class="only3">蒙牛</div></div>
+                </div>
+                <!--地产-->
+                <div class="interbottom_small bank1">
+                    <div class="only estate1"><img src="img/地产/f7a3b5b7e1cc3afcb00dc2115c91fc04.png" alt=""><div class="only3">恒大</div></div>
+                    <div class="only estate2"><img src="img/地产/位图.png" alt=""><div class="only3">中国保利</div></div>
+                    <div class="only estate3"><img src="img/地产/logo-1.png" alt=""><div class="only3">万科</div></div>
+                    <div class="only estate4"><img src="img/地产/62055ef61b62d7b6840419c6db18ea63.png" alt=""><div class="only3">碧桂园</div></div>
+                    <div class="only estate5"><img src="img/地产/9cae8949b73c33e998eb986d5c42838a.png" alt=""><div class="only3">万达</div></div>
+                    <div class="only estate6" style="margin-right: 0px"><img src="img/地产/华夏幸福.png" alt=""><div class="only3">华夏幸福</div></div>
+                </div>
+                <!--其他-->
+                <div class="interbottom_small bank2">
+                    <div class="only only2 ta1" style="margin-bottom:12px;"><img src="img/其它/第一行/1.png" alt=""><div class="only3">摩根大通</div></div>
+                    <div class="only only2 ta2" style="margin-bottom:12px;"><img src="img/其它/第一行/2.png" alt=""><div class="only3">摩根士丹利</div></div>
+                    <div class="only only2 ta3" style="margin-bottom:12px;"><img src="img/其它/第一行/3.png" alt=""><div class="only3">高盛</div></div>
+                    <div class="only only2 ta4" style="margin-bottom:12px;"><img src="img/其它/第一行/4.png" alt=""><div class="only3">通用电气</div></div>
+                    <div class="only only2 ta5" style="margin-bottom:12px;"><img src="img/其它/第一行/5.png" alt=""><div class="only3">西门子</div></div>
+                    <div class="only only2 ta6" style="margin-right: 0px; margin-bottom:12px;"><img src="img/其它/第一行/6.png" alt=""><div class="only3">LG电子</div></div>
+                    <div class="only only2 ta7" style="margin-bottom:12px;"><img src="img/其它/第二行/2-1.png" alt=""><div class="only3">麦肯锡</div></div>
+                    <div class="only only2 ta8" style="margin-bottom:12px;"><img src="img/其它/第二行/2-2.png" alt=""><div class="only3">埃森哲</div></div>
+                    <div class="only only2 ta9" style="margin-bottom:12px;"><img src="img/其它/第二行/2-3.png" alt=""><div class="only3">普华永道</div></div>
+                    <div class="only only2 ta10"style="margin-bottom:12px;"><img src="img/其它/第二行/2-4.png" alt=""><div class="only3">德勤</div></div>
+                    <div class="only only2 ta11" style="margin-bottom:12px;"><img src="img/其它/第二行/2-5.png" alt=""><div class="only3">毕马威</div></div>
+                    <div class="only only2 ta12" style="margin-right: 0px;margin-bottom: 12px;"><img src="img/其它/第二行/2-6.png" alt=""><div class="only3">安永</div></div>
+                    <div class="only only2 ta13"><img src="img/其它/第三行/3-1.png" alt=""><div class="only3">中国移动</div></div>
+                    <div class="only only2 ta14"><img src="img/其它/第三行/3-2.png" alt=""><div class="only3">中国电信</div></div>
+                    <div class="only only2 ta15"><img src="img/其它/第三行/3-3.png" alt=""><div class="only3">中国联通</div></div>
+                    <div class="only only2 ta16"><img src="img/其它/第三行/3-4.png" alt=""><div class="only3">中国国航</div></div>
+                    <div class="only only2 ta17"><img src="img/其它/第三行/3-5.png" alt=""><div class="only3">东方航空</div></div>
+                    <a href="#"><div class="only only2 ta18" style="margin-right: 0px"><img src="img/其它/第三行/3-6.png" alt=""><div class="only3">海南航空</div></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--服务流程-->
+    <div class="Service_1" id="ddd">
+        <div class="Service_1small">
+            <span class="characters">服务流程</span>
+            <span class="english">SERVICE FLOW</span>
+            <div class="bannerline"></div>
+            <div class="flow">
+                <div class="flowsmall">
+                    <div class="round first">
+                        <img src="img/服务流程_图标_求职规划解析.png" alt="" class="first2">
+                    </div>
+                    <span>求职规划解析</span>
+                    <img src="img/服务流程_图标-下一步.png" alt="" class="arrow">
+                </div>
+                <div class="flowsmall">
+                    <div class="round second">
+                        <img src="img/服务流程_图标_简历优化指导.png" alt="" class="second2">
+                    </div>
+                    <span>简历优化指导</span>
+                    <img src="img/服务流程_图标-下一步.png" alt="" class="arrow">
+                </div>
+                <div class="flowsmall">
+                    <div class="round third">
+                        <img src="img/服务流程_图标_推荐名企岗位.png" alt="" class="third2">
+                    </div>
+                    <span>推荐名企岗位</span>
+                    <img src="img/服务流程_图标-下一步.png" alt="" class="arrow">
+                </div>
+                <div class="flowsmall">
+                    <div class="round four">
+                        <img src="img/服务流程_图标_面试技巧辅导.png" alt="" class="four2">
+                    </div>
+                    <span>面试技巧辅导</span>
+                    <img src="img/服务流程_图标-下一步.png" alt="" class="arrow">
+                </div>
+                <div class="flowsmall">
+                    <div class="round five">
+                        <img src="img/服务流程_图标_挑选offer.png" alt="" class="five2">
+                    </div>
+                    <span>挑选offer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--底部bottom-->
+    <div class="bottom">
+        <div class="bottomsmall">
+            <div class="bottomsmall_left">
+                <span>联系电话： <span style="font-family:Arial;">028-85196036</span> </span><br><br>
+                <span>联系邮箱：<span style="font-family:Arial;">cooperation@chinachances.com</span></span><br><br>
+                <span>公司地址：四川省成都市高新区天府软件园D6栋</span>
+            </div>
+            <div class="bottomsmall_right">
+                <div class="right_span"><span>微</span><br><span>信</span><br><span>公</span><br><span>众</span><br><span>号</span></div>
+                <img src="https://shengzhila-public-img.oss-cn-beijing.aliyuncs.com/official_site/z/006cc9018f677d0b74381ed75ddd6c0.jpg" alt="">
+            </div>
+            <div class="bottom_bottom">
+                <span>Copyright © 2019 成都机遇华夏科技有限公司&nbsp;&nbsp;蜀ICP备19018375号-1</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+  var ua = navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i) == "micromessenger") {
+      $('*').on('touchstart', function () {
+        $(this).trigger('hover');
+    }).on('touchend', function () {
+        $(this).trigger('hover');
+    });
+      let intersmall=document.querySelectorAll(".intersmall");
+    let www=window.screen.availHeight;
+    let service=document.querySelector(".service");
+    let aaa=document.querySelector(".banner");
+    // console.log(aaa)
+    let Num_2=document.querySelector(".Num_2");
+    let help_offer=document.querySelector(".help_offer");
+    let sign=document.getElementById('sign');
+    let signbox=document.querySelector(".signbox")
+    function myFunction() {
+        service.style.height=www+'px';
+        signbox.style.marginTop="50px";
+        Num_2.style.marginTop="266px";
+        help_offer.style.marginTop="31px"
+      intersmall[0].classList.add('add_neirong');
+    }
+    // 报名变色
+    let baoming=document.querySelector('.baoming')
+    // console.log(baoming)
+    sign.onclick=function () {
+        baoming.style.display='block';
+    };
+     //报名成功
+    let btn1=document.querySelectorAll(".btn1")[0];
+    let info2=document.querySelector(".error-info2");
+    let info3=document.querySelector(".error-info3");
+    console.log(info3);
+    btn1.onclick=function(){
+      //数据提交
+      var files = document.getElementById('phone').value;
+      var env = document.getElementById('env').value;
+      var user_name = document.getElementById('user_name').value;
+      var contact = document.getElementById('contact').value;
+      var ajaxObj = new XMLHttpRequest();
+      ajaxObj.open('get', 'https://online.shengzhila.com/util/consultation'+"?phone="+files+"&env="+env+"&user_name="+user_name+"&contact="+contact);
+      ajaxObj.send();
+      ajaxObj.onreadystatechange = function () {
+        if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+          console.log('数据提交成功');
+          let ajax_data=ajaxObj.responseText;
+          console.log(ajax_data)
+        }
+      };
+      let putt1=document.querySelectorAll(".putt2")[0];
+      let putt2=document.querySelectorAll(".putt2")[1];
+      let putt3=document.querySelectorAll(".putt2")[2];
+      let putt4=document.querySelectorAll(".putt2")[3];
+      let putt2value=putt2.value;
+      let putt3value=putt3.value.length;
+      let putt4value=putt4.value.length;
+      let md5put2_value=hex_md5(putt2value);
+      if(md5put2_value!=public){
+        info2.style.display="block";
+        console.log(1111)
+      }
+      else if(md5put2_value=public&&putt3value==0&&putt4value==0){
+        info3.style.display="block";
+        console.log(222)
+      }
+      else if(md5put2_value=public&&putt3value>0&&putt4value>0){
+        small.style.display="none";
+        small2.style.display="block";
+        console.log(333)
+      }
+    };
+    // 报名弹窗关闭
+    let ooo=document.querySelectorAll(".putt2")[0];
+    let ppp=document.querySelectorAll(".putt2")[1];
+    let iii=document.querySelectorAll(".putt2")[2];
+    let uuu=document.querySelectorAll(".putt2")[3];
+    let btn2=document.querySelectorAll(".btn1")[1];
+    let Shut=document.querySelectorAll(".Shut")[0];
+    let Shut2=document.querySelectorAll(".Shut")[1];
+    let small=document.querySelector(".baomingsmall");
+    let small2=document.querySelector(".baomingsmall2");
+    // let tishi1=document.querySelector(".tishi1");
+    // let tishi2=document.querySelector(".tishi2");
+    // let tishi3=document.querySelector(".tishi3");
+    // let tishi4=document.querySelector(".tishi4");
+
+    // let put=document.querySelectorAll(".put");
+    // for(let i=0;i<put.length;i++){
+    //   put[i].onclick=function () {
+    //     move()
+    //     put[i].style.border="1px solid rgba(8,211,173,1)"
+    //   };
+    // }
+    //
+
+
+
+
+
+  //   var test = document.getElementById('phone');
+  // test.onclick = function(event){
+  //   tishi1.style.display = 'block';
+  //   event.stopPropagation();
+  //   document.onclick = function(){
+  //     tishi1.style.display = 'none';
+  //   }
+  // }
+  // tishi1.onclick = function(){//点击文字 事件
+  //   ooo.style.border="1px solid rgba(8,211,173,1)";
+  //   ppp.style.border="1px solid rgba(230,235,238,1)";
+  //   iii.style.border="1px solid rgba(230,235,238,1)";
+  //   uuu.style.border="1px solid rgba(230,235,238,1)";
+  //   test.focus();
+  // }
+    Shut.onclick=function () {
+        move();
+        baoming.style.display='none';
+        small.style.display="block";
+        small2.style.display="none";
+        ooo.value='';
+        uuu.value='';
+        iii.value='';
+        ppp.value='';
+        clearTimeout(timetime);
+        put_btn.innerHTML="获取";
+        put_btn.disabled = false;
+    };
+    btn2.onclick=function () {
+        move();
+        baoming.style.display='none';
+        small.style.display="block";
+        small2.style.display="none";
+        ooo.value='';
+        uuu.value='';
+        iii.value='';
+        ppp.value='';
+        clearTimeout(timetime);
+        put_btn.innerHTML="获取";
+        put_btn.disabled = false;
+    };
+    Shut2.onclick=function () {
+        move();
+        baoming.style.display='none';
+        small.style.display="block";
+        small2.style.display="none";
+        ooo.value='';
+        uuu.value='';
+        iii.value='';
+        ppp.value='';
+        clearTimeout(timetime);
+        put_btn.innerHTML="获取";
+        put_btn.disabled = false;
+    }
+     //获取验证码
+    var public=0;
+    var timenew=0
+    var timetime=0;
+    let put_btn=document.querySelector('#put_btn');
+    put_btn.onclick = function () {
+      var files = document.getElementById('phone').value;
+      let error_info1=document.querySelector(".error-info");
+            if(!(/^1[34578]\d{9}$/.test(files))){
+                error_info1.style.display='block';
+            }
+            else{
+              error_info1.style.display='none';
+              // 获取到手机号
+                var ajaxObj = new XMLHttpRequest();
+                ajaxObj.open('get', 'https://online.shengzhila.com/util/sms'+"?phone="+files);
+                ajaxObj.send();
+                ajaxObj.onreadystatechange = function () {
+                    if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+                        console.log('数据返回成功');
+                        let ajax_data=ajaxObj.responseText;
+                        const ajax_data_obj = JSON.parse(ajax_data)
+                        let data_info=ajax_data_obj.data.info;
+                        public = data_info
+                        console.log(public)
+                    }
+                }
+                        // 倒计时
+                        put_btn.disabled = true;  //当点击后倒计时时候不能点击此按钮
+                        var time = 60;  //倒计时60秒
+                        var timer = setInterval(fun1, 1000);  //设置定时器
+                        function fun1() {
+                            time--;
+                            if(time>=0) {
+                                put_btn.innerHTML = time + "s";
+                            }else{
+                                put_btn.innerHTML = "发送";
+                                put_btn.disabled = false;  //倒计时结束能够重新点击发送的按钮
+                                clearTimeout(timer);  //清除定时器
+                                time = 60;  //设置循环重新开始条件
+                                }
+                            }
+                            timetime=timer
+            }
+    };
+
+    // 同学显示影藏
+   let casebox1=document.querySelectorAll(".casebox1bottom")[0];
+    let casebox2=document.querySelectorAll(".casebox1bottom")[1];
+    let casebox3=document.querySelectorAll(".casebox1bottom")[2];
+   let box1_ding=document.querySelector(".casebox1_ding");
+   let casebox3_ding=document.querySelector(".casebox3_ding");
+   let casebox2_ding=document.querySelector(".casebox2_ding");
+   document.querySelectorAll(".casebox1bottom")[0].onmouseenter=function(){
+     box1_ding.style.right="-220%";
+     box1_ding.style.opacity="1";
+   };
+   box1_ding.onmouseleave=function(){
+     box1_ding.style.opacity="0";
+     box1_ding.style.right="100%";
+   };
+   document.querySelectorAll(".casebox1bottom")[2].onmouseenter=function(){
+     casebox3_ding.style.left="-220%";
+     casebox3_ding.style.opacity="1";
+   },
+     casebox3_ding.onmouseleave=function(){
+     casebox3_ding.style.opacity="0";
+     casebox3_ding.style.left="100%";
+   };
+   document.querySelectorAll(".casebox1bottom")[1].onmouseenter=function(){
+     casebox2_ding.style.top="-10%";
+     casebox2_ding.style.opacity="1";
+   },
+     casebox2_ding.onmouseleave=function(){
+     casebox2_ding.style.opacity="0";
+     casebox2_ding.style.top="100%";
+   };
+
+    //input框点击变色
+    let put=document.querySelectorAll(".put");
+    for(let i=0;i<put.length;i++){
+      put[i].onclick=function () {
+        move()
+        put[i].style.border="1px solid rgba(8,211,173,1)"
+      };
+    }
+    let move1=document.querySelector(".move1");
+    let move2=document.querySelector(".move2");
+    let move3=document.querySelector(".move3");
+    let move4=document.querySelector(".move4");
+    function move(){
+      move1.style.border="1px solid rgba(230,235,238,1)";
+      move2.style.border="1px solid rgba(230,235,238,1)";
+      move3.style.border="1px solid rgba(230,235,238,1)";
+      move4.style.border="1px solid rgba(230,235,238,1)"
+    }
+    // 报名按钮移入变色
+    let baobtn=document.querySelectorAll(".btn1")[0]
+    baobtn.onmouseenter=function(){
+      baobtn.style.backgroundColor='#07C09D'
+    }
+    baobtn.onmouseleave=function(){
+      baobtn.style.backgroundColor='#08D3AD'
+    }
+    let baobtn2=document.querySelectorAll(".btn1")[1]
+    baobtn2.onmouseenter=function(){
+      baobtn2.style.backgroundColor='#07C09D'
+    }
+    baobtn2.onmouseleave=function(){
+      baobtn2.style.backgroundColor='#08D3AD'
+    }
+    // post提交信息
+    // document.querySelector('#post_btn').onclick = function () {
+    //   var phone = document.getElementById("phone").value;
+    //   var user_name=document.getElementById("user_name").value;
+    //   var contact=document.getElementById("contact").value;
+    //     var ajaxObj = new XMLHttpRequest();
+    //     var data = {
+    //       "phone":phone,"user_name": user_name,"contact":contact
+    //     }
+    //     var alldata='phone='+phone+"&user_name="+user_name+"&contact="+contact;
+    //   console.log(data)
+    //     ajaxObj.open('post', 'http://dev.shengzhila.com/util/feedback',true);
+    //     ajaxObj.send(data);
+    //     ajaxObj.onreadystatechange = function () {
+    //         if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+    //             console.log(ajaxObj.responseText);
+    //         }
+    //     }
+    // }
+
+    //关闭按钮鼠标移入变色
+     let icongb =document.querySelector(".iconfont");
+        icongb.onmouseenter=function () {
+            icongb.style.color="#08D3AD"
+        }
+        icongb.onmouseleave=function () {
+            icongb.style.color="#C5C9CD"
+        }
+    let icongb2 =document.querySelector(".iconfont2");
+        icongb2.onmouseenter=function () {
+            icongb2.style.color="#08D3AD"
+        }
+        icongb2.onmouseleave=function () {
+            icongb2.style.color="#C5C9CD"
+        }
+        // 名企直推
+    let inter_bottom=document.querySelector(".inter_bottom");
+    let bank2=document.querySelector(".bank2");
+    //给div元素的文字变色
+    function bianse(index) {
+      for (let i=0;i<intersmall.length;i++){
+        intersmall[i].classList.remove("add_neirong");
+      }
+      console.log(index)
+      intersmall[index-1].classList.add("add_neirong");
+    }
+
+    for(let i=0;i<intersmall.length;i++){
+      intersmall[i].addEventListener("mouseenter touchstart",function () {
+        // for(var i=0;i<intersmall.length;i++)
+        if (i<=6){
+          inter_bottom.style.height="130px";
+        }
+        if (i>6){
+          inter_bottom.style.height="374px";
+        }
+      });
+      }
+let intersmall2=document.querySelectorAll(".intersmall");
+let interbottom_small=document.querySelectorAll(".interbottom_small")
+    for(let i=0;i<intersmall2.length;i++){
+      intersmall2[i].index = i;
+      intersmall2[i].addEventListener("click",function () {
+        for(let j=0;j<intersmall2.length;j++){
+          interbottom_small[j].style.display = "none";
+        }
+        interbottom_small[this.index].style.display = "block";
+      })
+}
+    }
+    else {
+       $('*').on('touchstart', function () {
+        $(this).trigger('hover');
+    }).on('touchend', function () {
+        $(this).trigger('hover');
+    });
+      let intersmall=document.querySelectorAll(".intersmall");
+    let www=window.screen.availHeight;
+    let service=document.querySelector(".service");
+    let aaa=document.querySelector(".banner");
+    // console.log(aaa)
+    let Num_2=document.querySelector(".Num_2");
+    let help_offer=document.querySelector(".help_offer");
+    let sign=document.querySelector('.sign');
+    let signbox=document.querySelector(".signbox")
+    function load() {
+        service.style.height=www+'px';
+        signbox.style.marginTop="50px";
+        Num_2.style.marginTop="266px";
+        help_offer.style.marginTop="31px"
+      intersmall[0].classList.add('add_neirong');
+    }
+    // 报名变色
+    let baoming=document.querySelector('.baoming')
+    // console.log(baoming)
+    sign.onclick=function () {
+        baoming.style.display='block';
+    };
+     //报名成功
+    let btn1=document.querySelectorAll(".btn1")[0];
+    let info2=document.querySelector(".error-info2");
+    let info3=document.querySelector(".error-info3");
+    console.log(info3);
+    btn1.onclick=function(){
+      //数据提交
+      var files = document.getElementById('phone').value;
+      var env = document.getElementById('env').value;
+      var user_name = document.getElementById('user_name').value;
+      var contact = document.getElementById('contact').value;
+      var ajaxObj = new XMLHttpRequest();
+      ajaxObj.open('get', 'https://online.shengzhila.com/util/consultation'+"?phone="+files+"&env="+env+"&user_name="+user_name+"&contact="+contact);
+      ajaxObj.send();
+      ajaxObj.onreadystatechange = function () {
+        if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+          console.log('数据提交成功');
+          let ajax_data=ajaxObj.responseText;
+          console.log(ajax_data)
+        }
+      };
+      let putt1=document.querySelectorAll(".putt2")[0];
+      let putt2=document.querySelectorAll(".putt2")[1];
+      let putt3=document.querySelectorAll(".putt2")[2];
+      let putt4=document.querySelectorAll(".putt2")[3];
+      let putt2value=putt2.value;
+      let putt3value=putt3.value.length;
+      let putt4value=putt4.value.length;
+      let md5put2_value=hex_md5(putt2value);
+      if(md5put2_value!=public){
+        info2.style.display="block";
+        console.log(1111)
+      }
+      else if(md5put2_value=public&&putt3value==0&&putt4value==0){
+        info3.style.display="block";
+        console.log(222)
+      }
+      else if(md5put2_value=public&&putt3value>0&&putt4value>0){
+        small.style.display="none";
+        small2.style.display="block";
+        console.log(333)
+      }
+    };
+    // 报名弹窗关闭
+    let ooo=document.querySelectorAll(".putt2")[0];
+    let ppp=document.querySelectorAll(".putt2")[1];
+    let iii=document.querySelectorAll(".putt2")[2];
+    let uuu=document.querySelectorAll(".putt2")[3];
+    let btn2=document.querySelectorAll(".btn1")[1];
+    let Shut=document.querySelectorAll(".Shut")[0];
+    let Shut2=document.querySelectorAll(".Shut")[1];
+    let small=document.querySelector(".baomingsmall");
+    let small2=document.querySelector(".baomingsmall2");
+    // let tishi1=document.querySelector(".tishi1");
+    // let tishi2=document.querySelector(".tishi2");
+    // let tishi3=document.querySelector(".tishi3");
+    // let tishi4=document.querySelector(".tishi4");
+
+    // let put=document.querySelectorAll(".put");
+    // for(let i=0;i<put.length;i++){
+    //   put[i].onclick=function () {
+    //     move()
+    //     put[i].style.border="1px solid rgba(8,211,173,1)"
+    //   };
+    // }
+    //
+
+
+
+
+
+  //   var test = document.getElementById('phone');
+  // test.onclick = function(event){
+  //   tishi1.style.display = 'block';
+  //   event.stopPropagation();
+  //   document.onclick = function(){
+  //     tishi1.style.display = 'none';
+  //   }
+  // }
+  // tishi1.onclick = function(){//点击文字 事件
+  //   ooo.style.border="1px solid rgba(8,211,173,1)";
+  //   ppp.style.border="1px solid rgba(230,235,238,1)";
+  //   iii.style.border="1px solid rgba(230,235,238,1)";
+  //   uuu.style.border="1px solid rgba(230,235,238,1)";
+  //   test.focus();
+  // }
+    Shut.onclick=function () {
+        move();
+        baoming.style.display='none';
+        small.style.display="block";
+        small2.style.display="none";
+        ooo.value='';
+        uuu.value='';
+        iii.value='';
+        ppp.value='';
+        clearTimeout(timetime);
+        put_btn.innerHTML="获取";
+        put_btn.disabled = false;
+    };
+    btn2.onclick=function () {
+        move();
+        baoming.style.display='none';
+        small.style.display="block";
+        small2.style.display="none";
+        ooo.value='';
+        uuu.value='';
+        iii.value='';
+        ppp.value='';
+        clearTimeout(timetime);
+        put_btn.innerHTML="获取";
+        put_btn.disabled = false;
+    };
+    Shut2.onclick=function () {
+        move();
+        baoming.style.display='none';
+        small.style.display="block";
+        small2.style.display="none";
+        ooo.value='';
+        uuu.value='';
+        iii.value='';
+        ppp.value='';
+        clearTimeout(timetime);
+        put_btn.innerHTML="获取";
+        put_btn.disabled = false;
+    }
+     //获取验证码
+    var public=0;
+    var timenew=0
+    var timetime=0;
+    let put_btn=document.querySelector('#put_btn');
+    put_btn.onclick = function () {
+      var files = document.getElementById('phone').value;
+      let error_info1=document.querySelector(".error-info");
+            if(!(/^1[34578]\d{9}$/.test(files))){
+                error_info1.style.display='block';
+            }
+            else{
+              error_info1.style.display='none';
+              // 获取到手机号
+                var ajaxObj = new XMLHttpRequest();
+                ajaxObj.open('get', 'https://online.shengzhila.com/util/sms'+"?phone="+files);
+                ajaxObj.send();
+                ajaxObj.onreadystatechange = function () {
+                    if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+                        console.log('数据返回成功');
+                        let ajax_data=ajaxObj.responseText;
+                        const ajax_data_obj = JSON.parse(ajax_data)
+                        let data_info=ajax_data_obj.data.info;
+                        public = data_info
+                        console.log(public)
+                    }
+                }
+                        // 倒计时
+                        put_btn.disabled = true;  //当点击后倒计时时候不能点击此按钮
+                        var time = 60;  //倒计时60秒
+                        var timer = setInterval(fun1, 1000);  //设置定时器
+                        function fun1() {
+                            time--;
+                            if(time>=0) {
+                                put_btn.innerHTML = time + "s";
+                            }else{
+                                put_btn.innerHTML = "发送";
+                                put_btn.disabled = false;  //倒计时结束能够重新点击发送的按钮
+                                clearTimeout(timer);  //清除定时器
+                                time = 60;  //设置循环重新开始条件
+                                }
+                            }
+                            timetime=timer
+            }
+    };
+
+    // 同学显示影藏
+   let casebox1=document.querySelectorAll(".casebox1bottom")[0];
+    let casebox2=document.querySelectorAll(".casebox1bottom")[1];
+    let casebox3=document.querySelectorAll(".casebox1bottom")[2];
+   let box1_ding=document.querySelector(".casebox1_ding");
+   let casebox3_ding=document.querySelector(".casebox3_ding");
+   let casebox2_ding=document.querySelector(".casebox2_ding");
+    document.querySelectorAll(".casebox1bottom")[0].onmouseenter=function(){
+     box1_ding.style.right="-220%";
+     box1_ding.style.opacity="1";
+   }
+   box1_ding.onmouseleave=function(){
+     box1_ding.style.opacity="0";
+     box1_ding.style.right="100%";
+   };
+   document.querySelectorAll(".casebox1bottom")[2].onmouseenter=function(){
+     casebox3_ding.style.left="-220%";
+     casebox3_ding.style.opacity="1";
+   },
+     casebox3_ding.onmouseleave=function(){
+     casebox3_ding.style.opacity="0";
+     casebox3_ding.style.left="100%";
+   };
+   document.querySelectorAll(".casebox1bottom")[1].onmouseenter=function(){
+     casebox2_ding.style.top="-10%";
+     casebox2_ding.style.opacity="1";
+   },
+     casebox2_ding.onmouseleave=function(){
+     casebox2_ding.style.opacity="0";
+     casebox2_ding.style.top="100%";
+   };
+
+
+    //input框点击变色
+    let put=document.querySelectorAll(".put");
+    for(let i=0;i<put.length;i++){
+      put[i].onclick=function () {
+        move()
+        put[i].style.border="1px solid rgba(8,211,173,1)"
+      };
+    }
+    let move1=document.querySelector(".move1");
+    let move2=document.querySelector(".move2");
+    let move3=document.querySelector(".move3");
+    let move4=document.querySelector(".move4");
+    function move(){
+      move1.style.border="1px solid rgba(230,235,238,1)";
+      move2.style.border="1px solid rgba(230,235,238,1)";
+      move3.style.border="1px solid rgba(230,235,238,1)";
+      move4.style.border="1px solid rgba(230,235,238,1)"
+    }
+    // 报名按钮移入变色
+    let baobtn=document.querySelectorAll(".btn1")[0]
+    baobtn.onmouseenter=function(){
+      baobtn.style.backgroundColor='#07C09D'
+    }
+    baobtn.onmouseleave=function(){
+      baobtn.style.backgroundColor='#08D3AD'
+    }
+    let baobtn2=document.querySelectorAll(".btn1")[1]
+    baobtn2.onmouseenter=function(){
+      baobtn2.style.backgroundColor='#07C09D'
+    }
+    baobtn2.onmouseleave=function(){
+      baobtn2.style.backgroundColor='#08D3AD'
+    }
+    // post提交信息
+    // document.querySelector('#post_btn').onclick = function () {
+    //   var phone = document.getElementById("phone").value;
+    //   var user_name=document.getElementById("user_name").value;
+    //   var contact=document.getElementById("contact").value;
+    //     var ajaxObj = new XMLHttpRequest();
+    //     var data = {
+    //       "phone":phone,"user_name": user_name,"contact":contact
+    //     }
+    //     var alldata='phone='+phone+"&user_name="+user_name+"&contact="+contact;
+    //   console.log(data)
+    //     ajaxObj.open('post', 'http://dev.shengzhila.com/util/feedback',true);
+    //     ajaxObj.send(data);
+    //     ajaxObj.onreadystatechange = function () {
+    //         if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+    //             console.log(ajaxObj.responseText);
+    //         }
+    //     }
+    // }
+
+    //关闭按钮鼠标移入变色
+     let icongb =document.querySelector(".iconfont");
+        icongb.onmouseenter=function () {
+            icongb.style.color="#08D3AD"
+        }
+        icongb.onmouseleave=function () {
+            icongb.style.color="#C5C9CD"
+        }
+    let icongb2 =document.querySelector(".iconfont2");
+        icongb2.onmouseenter=function () {
+            icongb2.style.color="#08D3AD"
+        }
+        icongb2.onmouseleave=function () {
+            icongb2.style.color="#C5C9CD"
+        }
+        // 名企直推
+    let inter_bottom=document.querySelector(".inter_bottom");
+    let bank2=document.querySelector(".bank2");
+    function bianse(index) {
+      console.log(index)
+      for (let i=0;i<intersmall.length;i++){
+        intersmall[i].classList.remove("add_neirong");
+      }
+    console.log(intersmall[index-1].classList)
+      intersmall[index-1].classList.add("add_neirong");
+      console.log(intersmall[index-1].classList)
+    }
+    for(let i=0;i<intersmall.length;i++){
+      intersmall[i].addEventListener("mouseenter",function () {
+        // for(var i=0;i<intersmall.length;i++)
+        if (i<=6){
+          inter_bottom.style.height="130px";
+        }
+        if (i>6){
+          inter_bottom.style.height="374px";
+        }
+      });
+      }
+let intersmall2=document.querySelectorAll(".intersmall");
+let interbottom_small=document.querySelectorAll(".interbottom_small");
+    for(let i=0;i<intersmall2.length;i++){
+      intersmall2[i].index = i;
+      intersmall2[i].addEventListener("mouseenter",function () {
+        for(let j=0;j<intersmall2.length;j++){
+          interbottom_small[j].style.display = "none";
+        }
+        interbottom_small[this.index].style.display = "block";
+      })
+}
+    }
+    // document.querySelector(".inter_top").addEventListener("touchstart",function (e) {
+    //   console.log(1)
+    //  bianse(e.target.index + 1)
+    // })
+</script>
